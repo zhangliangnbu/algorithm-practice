@@ -25,19 +25,56 @@ package com.liang.algorithm.leetcode;
  */
 public class IntegerReverse {
     public static void main(String[] args) {
-        int x = 123;
+//        int x = Integer.MAX_VALUE; // 2147483647
+//        int x = Integer.MIN_VALUE; // -2147483648
+//        int x = 120;
+//        int x = -2147483412; // -2143
+        int x = -2147483648; // -2143
         System.out.println(x);
-        System.out.println(m1(x));
+        System.out.println(my1(x));
     }
 
-    public static int m1(int x) {
-        String s = String.valueOf(x);
-        int sum = 0;
-        for (int i = 0, len = s.length(); i < len; i ++) {
-            sum += Character.digit(s.charAt(i), 10) * (Math.pow(10, i));
+    public static int my1(int x) {
+        // 特殊情况考虑两点：负数、溢出
+
+        String s;
+
+        // 负数
+        if (x < 0) {
+            s = String.valueOf(-x);
+        } else {
+            s  = String.valueOf(x);
         }
-        return sum;
+
+        // 无符号数字反转
+        StringBuilder rs = new StringBuilder();
+        for (int len = s.length(), i = len - 1; i >= 0; i --) {
+            rs.append(s.charAt(i));
+        }
+
+        // 溢出
+        String ms =  String.valueOf(Integer.MAX_VALUE);
+        int rsi ,msi;
+        if (rs.length() == ms.length()) {
+            for (int i = 0, len = rs.length(); i < len; i ++) {
+                rsi = rs.charAt(i);
+                msi = ms.charAt(i);
+                if (i == len - 1 && x < 0 && rsi > msi + 1) {
+                    return 0;
+                } else if (rsi > msi) {
+                   return 0;
+                } else if (rsi < msi) {
+                    break;
+                }
+            }
+        }
+
+        String rss;
+        if (x < 0) {
+            rss = '-' + rs.toString();
+        } else {
+            rss = rs.toString();
+        }
+        return Integer.parseInt(rss);
     }
-
-
 }
