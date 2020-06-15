@@ -20,8 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8ceefffc-8731-4a65-a33b-cf28b77bc112" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/liang/algorithm/leetcode/RomeNumberRev.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/liang/algorithm/leetcode/LongestCommonPrefix.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,7 +51,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1d9UododniSTIhoxujynlcxZeAD" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -70,11 +71,24 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
-  <component name="RunManager" selected="Application.PalindromeNumber">
+  <component name="RunManager" selected="Application.LongestCommonPrefix">
     <configuration name="IntegerReverse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.liang.algorithm.leetcode.IntegerReverse" />
+      <module name="algorithm-practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.liang.algorithm.leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LongestCommonPrefix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.liang.algorithm.leetcode.LongestCommonPrefix" />
       <module name="algorithm-practice" />
       <extension name="coverage">
         <pattern>
@@ -101,6 +115,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LongestCommonPrefix" />
         <item itemvalue="Application.PalindromeNumber" />
         <item itemvalue="Application.IntegerReverse" />
       </list>
@@ -145,37 +160,52 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="864" y="307" key="#xdebugger.evaluate/0.0.1920.1040@0.0.1920.1040" timestamp="1591927484189" />
-    <state width="1505" height="105" key="GridCell.Tab.0.bottom" timestamp="1591932874256">
+    <state width="1328" height="145" key="GridCell.Tab.0.bottom" timestamp="1592202097103">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1505" height="105" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591932874256" />
-    <state width="1505" height="105" key="GridCell.Tab.0.center" timestamp="1591932874256">
+    <state width="1328" height="145" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592202097103" />
+    <state width="1328" height="145" key="GridCell.Tab.0.center" timestamp="1592202097103">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1505" height="105" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591932874256" />
-    <state width="1505" height="105" key="GridCell.Tab.0.left" timestamp="1591932874256">
+    <state width="1328" height="145" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592202097103" />
+    <state width="1328" height="145" key="GridCell.Tab.0.left" timestamp="1592202097103">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1505" height="105" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591932874256" />
-    <state width="1505" height="105" key="GridCell.Tab.0.right" timestamp="1591932874256">
+    <state width="1328" height="145" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592202097103" />
+    <state width="1328" height="145" key="GridCell.Tab.0.right" timestamp="1592202097103">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1505" height="105" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591932874256" />
-    <state width="1505" height="145" key="GridCell.Tab.1.bottom" timestamp="1591927974114">
+    <state width="1328" height="145" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592202097103" />
+    <state width="1328" height="145" key="GridCell.Tab.1.bottom" timestamp="1592202097252">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1505" height="145" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591927974114" />
-    <state width="1505" height="145" key="GridCell.Tab.1.center" timestamp="1591927974114">
+    <state width="1328" height="145" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592202097252" />
+    <state width="1328" height="145" key="GridCell.Tab.1.center" timestamp="1592202097252">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1505" height="145" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591927974114" />
-    <state width="1505" height="145" key="GridCell.Tab.1.left" timestamp="1591927974113">
+    <state width="1328" height="145" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592202097252" />
+    <state width="1328" height="145" key="GridCell.Tab.1.left" timestamp="1592202097252">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1505" height="145" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591927974113" />
-    <state width="1505" height="145" key="GridCell.Tab.1.right" timestamp="1591927974114">
+    <state width="1328" height="145" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592202097252" />
+    <state width="1328" height="145" key="GridCell.Tab.1.right" timestamp="1592202097252">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1505" height="145" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591927974114" />
+    <state width="1328" height="145" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592202097252" />
+    <state x="375" y="85" key="SettingsEditor" timestamp="1592182524841">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="375" y="85" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1592182524841" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/liang/algorithm/leetcode/LongestCommonPrefix.java</url>
+          <line>83</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
