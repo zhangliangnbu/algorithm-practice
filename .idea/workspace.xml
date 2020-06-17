@@ -20,9 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8ceefffc-8731-4a65-a33b-cf28b77bc112" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/liang/algorithm/leetcode/DuplicateRemove.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/liang/algorithm/leetcode/Uitls.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/liang/algorithm/leetcode/ElementRemove.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/liang/algorithm/leetcode/DuplicateRemove.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liang/algorithm/leetcode/DuplicateRemove.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +74,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
-  <component name="RunManager" selected="Application.DuplicateRemove">
+  <component name="RunManager" selected="Application.ElementRemove">
     <configuration name="BracketsValid" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.liang.algorithm.leetcode.BracketsValid" />
       <module name="algorithm-practice" />
@@ -90,6 +90,19 @@
     </configuration>
     <configuration name="DuplicateRemove" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.liang.algorithm.leetcode.DuplicateRemove" />
+      <module name="algorithm-practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.liang.algorithm.leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ElementRemove" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.liang.algorithm.leetcode.ElementRemove" />
       <module name="algorithm-practice" />
       <extension name="coverage">
         <pattern>
@@ -127,26 +140,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PalindromeNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.liang.algorithm.leetcode.PalindromeNumber" />
-      <module name="algorithm-practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.liang.algorithm.leetcode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ElementRemove" />
         <item itemvalue="Application.DuplicateRemove" />
         <item itemvalue="Application.MergeTwoLists" />
         <item itemvalue="Application.BracketsValid" />
         <item itemvalue="Application.LongestCommonPrefix" />
-        <item itemvalue="Application.PalindromeNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -189,22 +189,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="864" y="307" key="#xdebugger.evaluate/0.0.1920.1040@0.0.1920.1040" timestamp="1591927484189" />
-    <state width="1569" height="91" key="GridCell.Tab.0.bottom" timestamp="1592366879480">
+    <state width="1569" height="130" key="GridCell.Tab.0.bottom" timestamp="1592368377430">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1569" height="91" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592366879480" />
-    <state width="1569" height="91" key="GridCell.Tab.0.center" timestamp="1592366879480">
+    <state width="1569" height="130" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592368377430" />
+    <state width="1569" height="130" key="GridCell.Tab.0.center" timestamp="1592368377430">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1569" height="91" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592366879480" />
-    <state width="1569" height="91" key="GridCell.Tab.0.left" timestamp="1592366879480">
+    <state width="1569" height="130" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592368377430" />
+    <state width="1569" height="130" key="GridCell.Tab.0.left" timestamp="1592368377430">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1569" height="91" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592366879480" />
-    <state width="1569" height="91" key="GridCell.Tab.0.right" timestamp="1592366879480">
+    <state width="1569" height="130" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592368377430" />
+    <state width="1569" height="130" key="GridCell.Tab.0.right" timestamp="1592368377430">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1569" height="91" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592366879480" />
+    <state width="1569" height="130" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592368377430" />
     <state width="1569" height="280" key="GridCell.Tab.1.bottom" timestamp="1592366698956">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

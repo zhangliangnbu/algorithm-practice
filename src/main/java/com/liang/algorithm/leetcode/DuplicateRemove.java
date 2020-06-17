@@ -81,7 +81,7 @@ public class DuplicateRemove {
     }
 
     public static int my2(int[] nums) {
-        // sol： 遍历 + 双指针，一个指向有效数字，一个指向最新数字
+        // sol： 遍历 + 双指针，一个指向有效索引，一个指向最新索引
         // 与官方一样
         if (nums.length == 0) return 0;
 
