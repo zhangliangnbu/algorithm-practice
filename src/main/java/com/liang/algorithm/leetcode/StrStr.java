@@ -58,7 +58,7 @@ public class StrStr {
     }
 
     public static int my2(String haystack, String needle) {
-        // sol: hashset存储所有子串，hash查找，time O(n)
+        // sol: hashset存储所有子串，hash查找，time O(n * m) 因为hashcode计算需要复杂度为O(m)
         if (haystack == null || needle == null || haystack.length() < needle.length()) {
             return -1;
         }
@@ -68,15 +68,23 @@ public class StrStr {
 
         HashMap<String, Integer> map = new HashMap<String, Integer>(haystack.length());
         for (int i = 0, len = haystack.length() - needle.length(); i <= len; i ++) {
-            String sub = haystack.substring(i, i + needle.length());
-            if (!map.containsKey(sub)) {
-                map.put(sub, i);
+            // 增加判断，减少无效字符串
+            if (haystack.charAt(i) == needle.charAt(0)) {
+                String sub = haystack.substring(i, i + needle.length());
+                if (!map.containsKey(sub)) {
+                    map.put(sub, i);
+                }
             }
         }
         if (map.containsKey(needle)) {
             return map.get(needle);
         }
 
+        return -1;
+    }
+
+    public static int offcial(String haystack, String needle) {
+        // 类似方法二，官方的hash求值使用了滚动窗口方法，每次计算为O(1)，但有个问题没有解决：即hash碰撞问题
         return -1;
     }
 
