@@ -20,7 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8ceefffc-8731-4a65-a33b-cf28b77bc112" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/liang/algorithm/leetcode/CountAndSay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/liang/algorithm/leetcode/LengthOfLastWord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/liang/algorithm/leetcode/MaxSubArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,7 +74,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
-  <component name="RunManager" selected="Application.CountAndSay">
+  <component name="RunManager" selected="Application.LengthOfLastWord">
     <configuration name="CountAndSay" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.liang.algorithm.leetcode.CountAndSay" />
       <module name="algorithm-practice" />
@@ -87,34 +88,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DuplicateRemove" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.liang.algorithm.leetcode.DuplicateRemove" />
-      <module name="algorithm-practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.liang.algorithm.leetcode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ElementRemove" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.liang.algorithm.leetcode.ElementRemove" />
-      <module name="algorithm-practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.liang.algorithm.leetcode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="InsertionSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.liang.algorithm.leetcode.InsertionSearch" />
+      <module name="algorithm-practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.liang.algorithm.leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LengthOfLastWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.liang.algorithm.leetcode.LengthOfLastWord" />
+      <module name="algorithm-practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.liang.algorithm.leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MaxSubArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.liang.algorithm.leetcode.MaxSubArray" />
       <module name="algorithm-practice" />
       <extension name="coverage">
         <pattern>
@@ -141,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LengthOfLastWord" />
+        <item itemvalue="Application.MaxSubArray" />
         <item itemvalue="Application.CountAndSay" />
         <item itemvalue="Application.InsertionSearch" />
         <item itemvalue="Application.StrStr" />
-        <item itemvalue="Application.ElementRemove" />
-        <item itemvalue="Application.DuplicateRemove" />
       </list>
     </recent_temporary>
   </component>
@@ -184,26 +185,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="0" y="103" key="#IntegerReverse/0.0.1920.1040@0.0.1920.1040" timestamp="1591865692713" />
+    <state x="904" y="267" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1594786779829">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="904" y="267" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1594786779829" />
     <state x="1116" y="307" key="#xdebugger.evaluate" timestamp="1592443950319">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1116" y="307" key="#xdebugger.evaluate/0.0.1920.1040@0.0.1920.1040" timestamp="1592443950319" />
-    <state width="1569" height="254" key="GridCell.Tab.0.bottom" timestamp="1594786363299">
+    <state width="1569" height="195" key="GridCell.Tab.0.bottom" timestamp="1595238129239">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1569" height="254" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594786363299" />
-    <state width="1569" height="254" key="GridCell.Tab.0.center" timestamp="1594786363299">
+    <state width="1569" height="195" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1595238129239" />
+    <state width="1569" height="195" key="GridCell.Tab.0.center" timestamp="1595238129239">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1569" height="254" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594786363299" />
-    <state width="1569" height="254" key="GridCell.Tab.0.left" timestamp="1594786363299">
+    <state width="1569" height="195" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1595238129239" />
+    <state width="1569" height="195" key="GridCell.Tab.0.left" timestamp="1595238129239">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1569" height="254" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594786363299" />
-    <state width="1569" height="254" key="GridCell.Tab.0.right" timestamp="1594786363299">
+    <state width="1569" height="195" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1595238129239" />
+    <state width="1569" height="195" key="GridCell.Tab.0.right" timestamp="1595238129239">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1569" height="254" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594786363299" />
+    <state width="1569" height="195" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1595238129239" />
     <state width="1569" height="121" key="GridCell.Tab.1.bottom" timestamp="1592562202283">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
