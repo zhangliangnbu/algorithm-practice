@@ -17,7 +17,7 @@ public class Uitls {
             if (i == len - 1) {
                 System.out.print(nums[i]);
             } else {
-                System.out.print(nums[i] + "->");
+                System.out.print(nums[i] + ",");
             }
         }
     }

@@ -20,9 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8ceefffc-8731-4a65-a33b-cf28b77bc112" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/liang/algorithm/leetcode/LengthOfLastWord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/liang/algorithm/leetcode/MaxSubArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/liang/algorithm/leetcode/PlusOne.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/liang/algorithm/leetcode/MaxSubArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liang/algorithm/leetcode/emphasis/MaxSubArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/liang/algorithm/leetcode/Uitls.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liang/algorithm/leetcode/Uitls.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,13 +75,13 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
-  <component name="RunManager" selected="Application.LengthOfLastWord">
+  <component name="RunManager" selected="Application.PlusOne">
     <configuration name="CountAndSay" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.liang.algorithm.leetcode.CountAndSay" />
       <module name="algorithm-practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.liang.algorithm.leetcode.*" />
+          <option name="PATTERN" value="com.liang.algorithm.leetcode.emphasis.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,7 +94,7 @@
       <module name="algorithm-practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.liang.algorithm.leetcode.*" />
+          <option name="PATTERN" value="com.liang.algorithm.leetcode.emphasis.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,7 +107,7 @@
       <module name="algorithm-practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.liang.algorithm.leetcode.*" />
+          <option name="PATTERN" value="com.liang.algorithm.leetcode.emphasis.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,11 +116,11 @@
       </method>
     </configuration>
     <configuration name="MaxSubArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.liang.algorithm.leetcode.MaxSubArray" />
+      <option name="MAIN_CLASS_NAME" value="com.liang.algorithm.leetcode.emphasis.MaxSubArray" />
       <module name="algorithm-practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.liang.algorithm.leetcode.*" />
+          <option name="PATTERN" value="com.liang.algorithm.leetcode.emphasis.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,8 +128,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StrStr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.liang.algorithm.leetcode.StrStr" />
+    <configuration name="PlusOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.liang.algorithm.leetcode.PlusOne" />
       <module name="algorithm-practice" />
       <extension name="coverage">
         <pattern>
@@ -142,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PlusOne" />
         <item itemvalue="Application.LengthOfLastWord" />
         <item itemvalue="Application.MaxSubArray" />
         <item itemvalue="Application.CountAndSay" />
         <item itemvalue="Application.InsertionSearch" />
-        <item itemvalue="Application.StrStr" />
       </list>
     </recent_temporary>
   </component>
@@ -193,22 +194,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1116" y="307" key="#xdebugger.evaluate/0.0.1920.1040@0.0.1920.1040" timestamp="1592443950319" />
-    <state width="1569" height="195" key="GridCell.Tab.0.bottom" timestamp="1595238129239">
+    <state width="1569" height="221" key="GridCell.Tab.0.bottom" timestamp="1595467212911">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1569" height="195" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1595238129239" />
-    <state width="1569" height="195" key="GridCell.Tab.0.center" timestamp="1595238129239">
+    <state width="1569" height="221" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1595467212911" />
+    <state width="1569" height="221" key="GridCell.Tab.0.center" timestamp="1595467212911">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1569" height="195" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1595238129239" />
-    <state width="1569" height="195" key="GridCell.Tab.0.left" timestamp="1595238129239">
+    <state width="1569" height="221" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1595467212911" />
+    <state width="1569" height="221" key="GridCell.Tab.0.left" timestamp="1595467212911">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1569" height="195" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1595238129239" />
-    <state width="1569" height="195" key="GridCell.Tab.0.right" timestamp="1595238129239">
+    <state width="1569" height="221" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1595467212911" />
+    <state width="1569" height="221" key="GridCell.Tab.0.right" timestamp="1595467212911">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1569" height="195" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1595238129239" />
+    <state width="1569" height="221" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1595467212911" />
     <state width="1569" height="121" key="GridCell.Tab.1.bottom" timestamp="1592562202283">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
