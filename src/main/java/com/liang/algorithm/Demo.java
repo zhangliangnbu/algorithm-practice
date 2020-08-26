@@ -1,5 +1,11 @@
 package com.liang.algorithm;
 
+import com.liang.algorithm.leetcode.Uitls;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
+
 /**
  * @author : zhangliang
  * @date : 2020/6/11
@@ -15,7 +21,8 @@ public class Demo {
 
 
     public static void main(String[] args) {
-        calByte();
+//        calByte();
+        testIterator();
     }
 
     /// 二进制计算
@@ -29,6 +36,29 @@ public class Demo {
         System.out.println(touchRegion);
         System.out.println(touchRegion & REGION_HORIZONTAL_MASK);
         System.out.println(touchRegion & REGION_VERTICAL_MASK);
+    }
+
+    public static void testIterator() {
+        List<Integer> list = new ArrayList<Integer>();
+        list.add(1);
+        list.add(2);
+        list.add(null);
+        list.add(3);
+        list.add(-1);
+        list.add(4);
+        list.add(-2);
+
+        Iterator<Integer> iterator = list.iterator();
+        while (iterator.hasNext()){
+            Integer i = iterator.next();
+            if (i == null) {
+                iterator.remove();
+            } else if (i < 0) {
+                iterator.remove();
+            }
+        }
+
+        Uitls.printList(list);
     }
 
 }
