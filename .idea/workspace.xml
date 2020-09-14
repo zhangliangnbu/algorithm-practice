@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -20,9 +23,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8ceefffc-8731-4a65-a33b-cf28b77bc112" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/liang/algorithm/leetcode/dynamicprogramming/MinPathSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/liang/algorithm/leetcode/dynamicprogramming/MinimumTotal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/liang/algorithm/leetcode/dynamicprogramming/UniquePaths2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/liang/algorithm/leetcode/dynamicprogramming/IsSubsequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/liang/algorithm/leetcode/dynamicprogramming/Massage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/liang/algorithm/leetcode/dynamicprogramming/MaxSubArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/liang/algorithm/leetcode/dynamicprogramming/MinCostClimbingStairs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/liang/algorithm/leetcode/dynamicprogramming/WaysToStep.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,7 +48,7 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="$USER_HOME$/Library/apache-maven-3.6.2" />
+        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.1.2\plugins\maven\lib\maven3" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
@@ -80,22 +85,9 @@
       <recent name="com.liang.algorithm.leetcode.dynamicprogramming" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MinimumTotal">
-    <configuration name="MaxArea" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.liang.algorithm.leetcode.emphasis.MaxArea" />
-      <module name="algorithm-practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.liang.algorithm.leetcode.emphasis.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MinPathSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.liang.algorithm.leetcode.dynamicprogramming.MinPathSum" />
+  <component name="RunManager" selected="Application.WaysToStep">
+    <configuration name="IsSubsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.liang.algorithm.leetcode.dynamicprogramming.IsSubsequence" />
       <module name="algorithm-practice" />
       <extension name="coverage">
         <pattern>
@@ -107,8 +99,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinimumTotal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.liang.algorithm.leetcode.dynamicprogramming.MinimumTotal" />
+    <configuration name="Massage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.liang.algorithm.leetcode.dynamicprogramming.Massage" />
       <module name="algorithm-practice" />
       <extension name="coverage">
         <pattern>
@@ -120,8 +112,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UniquePaths" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.liang.algorithm.leetcode.dynamicprogramming.UniquePaths" />
+    <configuration name="MaxSubArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.liang.algorithm.leetcode.dynamicprogramming.MaxSubArray" />
       <module name="algorithm-practice" />
       <extension name="coverage">
         <pattern>
@@ -133,8 +125,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UniquePaths2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.liang.algorithm.leetcode.dynamicprogramming.UniquePaths2" />
+    <configuration name="MinCostClimbingStairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.liang.algorithm.leetcode.dynamicprogramming.MinCostClimbingStairs" />
+      <module name="algorithm-practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.liang.algorithm.leetcode.dynamicprogramming.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WaysToStep" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.liang.algorithm.leetcode.dynamicprogramming.WaysToStep" />
       <module name="algorithm-practice" />
       <extension name="coverage">
         <pattern>
@@ -148,14 +153,15 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MinimumTotal" />
-        <item itemvalue="Application.MinPathSum" />
-        <item itemvalue="Application.UniquePaths2" />
-        <item itemvalue="Application.UniquePaths" />
-        <item itemvalue="Application.MaxArea" />
+        <item itemvalue="Application.WaysToStep" />
+        <item itemvalue="Application.MinCostClimbingStairs" />
+        <item itemvalue="Application.IsSubsequence" />
+        <item itemvalue="Application.Massage" />
+        <item itemvalue="Application.MaxSubArray" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -199,38 +205,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1116" y="307" key="#xdebugger.evaluate/0.0.1920.1040@0.0.1920.1040" timestamp="1592443950319" />
-    <state width="1569" height="425" key="GridCell.Tab.0.bottom" timestamp="1598518653489">
+    <state width="1569" height="139" key="GridCell.Tab.0.bottom" timestamp="1600050605582">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1569" height="425" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1598518653489" />
-    <state width="1569" height="425" key="GridCell.Tab.0.center" timestamp="1598518653489">
+    <state width="1569" height="139" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600050605582" />
+    <state width="1569" height="139" key="GridCell.Tab.0.center" timestamp="1600050605581">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1569" height="425" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1598518653489" />
-    <state width="1569" height="425" key="GridCell.Tab.0.left" timestamp="1598518653489">
+    <state width="1569" height="139" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600050605581" />
+    <state width="1569" height="139" key="GridCell.Tab.0.left" timestamp="1600050605581">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1569" height="425" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1598518653489" />
-    <state width="1569" height="425" key="GridCell.Tab.0.right" timestamp="1598518653489">
+    <state width="1569" height="139" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600050605581" />
+    <state width="1569" height="139" key="GridCell.Tab.0.right" timestamp="1600050605581">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1569" height="425" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1598518653489" />
-    <state width="1569" height="122" key="GridCell.Tab.1.bottom" timestamp="1598516530857">
+    <state width="1569" height="139" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600050605581" />
+    <state width="1569" height="122" key="GridCell.Tab.1.bottom" timestamp="1598591255004">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1569" height="122" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1598516530857" />
-    <state width="1569" height="122" key="GridCell.Tab.1.center" timestamp="1598516530857">
+    <state width="1569" height="122" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1598591255004" />
+    <state width="1569" height="122" key="GridCell.Tab.1.center" timestamp="1598591255004">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1569" height="122" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1598516530857" />
-    <state width="1569" height="122" key="GridCell.Tab.1.left" timestamp="1598516530857">
+    <state width="1569" height="122" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1598591255004" />
+    <state width="1569" height="122" key="GridCell.Tab.1.left" timestamp="1598591255004">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1569" height="122" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1598516530857" />
-    <state width="1569" height="122" key="GridCell.Tab.1.right" timestamp="1598516530857">
+    <state width="1569" height="122" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1598591255004" />
+    <state width="1569" height="122" key="GridCell.Tab.1.right" timestamp="1598591255004">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1569" height="122" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1598516530857" />
+    <state width="1569" height="122" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1598591255004" />
     <state x="375" y="85" key="SettingsEditor" timestamp="1594784380227">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -239,9 +245,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="887" y="256" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1592875697091" />
-    <state x="570" y="5" width="840" height="1034" key="search.everywhere.popup" timestamp="1592443237847">
+    <state x="570" y="5" width="840" height="1034" key="search.everywhere.popup" timestamp="1600045992361">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="570" y="5" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1592443237847" />
+    <state x="570" y="5" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1600045992361" />
   </component>
 </project>
