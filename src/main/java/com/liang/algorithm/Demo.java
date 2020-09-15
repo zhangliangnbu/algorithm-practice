@@ -1,6 +1,6 @@
 package com.liang.algorithm;
 
-import com.liang.algorithm.leetcode.Uitls;
+import com.liang.algorithm.leetcode.Utils;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -58,7 +58,7 @@ public class Demo {
             }
         }
 
-        Uitls.printList(list);
+        Utils.printList(list);
     }
 
 }

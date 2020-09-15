@@ -39,7 +39,7 @@ public class LevelOrderBottom {
         n1r.right = n2r;
         List<List<Integer>> lists = levelOrderBottom(n0);
         for (List<Integer> list : lists) {
-            Uitls.printList(list);
+            Utils.printList(list);
         }
 
     }

@@ -1,7 +1,5 @@
 package com.liang.algorithm.leetcode;
 
-import javax.rmi.CORBA.Util;
-
 /**
  * 给定一个排序数组，你需要在 原地 删除重复出现的元素，使得每个元素只出现一次，返回移除后数组的新长度。
  *
@@ -51,8 +49,8 @@ public class DuplicateRemove {
     public static void main(String[] args) {
 //        int[] nums = {1,1,2};
         int[] nums = {0,0,1,1,1,2,2,3,3,4};
-        Uitls.printArr(nums);
-        Uitls.printArr(nums, my2(nums));
+        Utils.printArr(nums);
+        Utils.printArr(nums, my2(nums));
     }
 
     public static int my1(int[] nums) {

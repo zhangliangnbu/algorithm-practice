@@ -35,8 +35,8 @@ public class ElementRemove {
     public static void main(String[] args) {
 //        int[] nums = {1,1,2};
         int[] nums = {0,1,2,2,3,0,4,2};
-        Uitls.printArr(nums);
-        Uitls.printArr(nums, my1(nums, 2));
+        Utils.printArr(nums);
+        Utils.printArr(nums, my1(nums, 2));
 
     }
 

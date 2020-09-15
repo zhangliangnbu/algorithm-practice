@@ -28,7 +28,7 @@ public class MergeArrays {
         int[] nums2 = {2,5,6};
         int n = 3;
         official(nums1, m, nums2, n);
-        Uitls.printArr(nums1);
+        Utils.printArr(nums1);
     }
 
     /**

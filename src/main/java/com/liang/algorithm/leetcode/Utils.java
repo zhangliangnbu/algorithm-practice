@@ -2,7 +2,7 @@ package com.liang.algorithm.leetcode;
 
 import java.util.List;
 
-public class Uitls {
+public class Utils {
     public static void printArr(int[] nums) {
         printArr(nums, nums.length);
     }
@@ -22,6 +22,18 @@ public class Uitls {
                 System.out.print(nums[i] + ",");
             }
         }
+    }
+
+    public static void printArr2(int[][] nums) {
+        if (nums == null) {
+            return;
+        }
+        int n = nums.length;
+        for (int[] arr : nums) {
+            printArr(arr);
+            System.out.println();
+        }
+
     }
 
     public static void printList(List<Integer> list) {

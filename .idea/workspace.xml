@@ -23,12 +23,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8ceefffc-8731-4a65-a33b-cf28b77bc112" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/liang/algorithm/leetcode/dynamicprogramming/IsSubsequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/liang/algorithm/leetcode/dynamicprogramming/Massage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/liang/algorithm/leetcode/dynamicprogramming/MaxSubArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/liang/algorithm/leetcode/dynamicprogramming/MinCostClimbingStairs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/liang/algorithm/leetcode/dynamicprogramming/WaysToStep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/liang/algorithm/leetcode/dynamicprogramming/CountBits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/liang/algorithm/leetcode/dynamicprogramming/MatrixBlockSum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/liang/algorithm/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liang/algorithm/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/liang/algorithm/leetcode/DuplicateRemove.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liang/algorithm/leetcode/DuplicateRemove.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/liang/algorithm/leetcode/ElementRemove.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liang/algorithm/leetcode/ElementRemove.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/liang/algorithm/leetcode/LevelOrderBottom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liang/algorithm/leetcode/LevelOrderBottom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/liang/algorithm/leetcode/MergeArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liang/algorithm/leetcode/MergeArrays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/liang/algorithm/leetcode/PlusOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liang/algorithm/leetcode/PlusOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/liang/algorithm/leetcode/Uitls.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liang/algorithm/leetcode/Utils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +89,20 @@
       <recent name="com.liang.algorithm.leetcode.dynamicprogramming" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.WaysToStep">
+  <component name="RunManager" selected="Application.MatrixBlockSum">
+    <configuration name="CountBits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.liang.algorithm.leetcode.dynamicprogramming.CountBits" />
+      <module name="algorithm-practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.liang.algorithm.leetcode.dynamicprogramming.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="IsSubsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.liang.algorithm.leetcode.dynamicprogramming.IsSubsequence" />
       <module name="algorithm-practice" />
@@ -99,21 +116,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Massage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.liang.algorithm.leetcode.dynamicprogramming.Massage" />
-      <module name="algorithm-practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.liang.algorithm.leetcode.dynamicprogramming.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MaxSubArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.liang.algorithm.leetcode.dynamicprogramming.MaxSubArray" />
+    <configuration name="MatrixBlockSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.liang.algorithm.leetcode.dynamicprogramming.MatrixBlockSum" />
       <module name="algorithm-practice" />
       <extension name="coverage">
         <pattern>
@@ -153,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MatrixBlockSum" />
+        <item itemvalue="Application.CountBits" />
         <item itemvalue="Application.WaysToStep" />
         <item itemvalue="Application.MinCostClimbingStairs" />
         <item itemvalue="Application.IsSubsequence" />
-        <item itemvalue="Application.Massage" />
-        <item itemvalue="Application.MaxSubArray" />
       </list>
     </recent_temporary>
   </component>
@@ -205,49 +209,63 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1116" y="307" key="#xdebugger.evaluate/0.0.1920.1040@0.0.1920.1040" timestamp="1592443950319" />
-    <state width="1569" height="139" key="GridCell.Tab.0.bottom" timestamp="1600050605582">
+    <state width="1569" height="270" key="GridCell.Tab.0.bottom" timestamp="1600153910471">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1569" height="139" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600050605582" />
-    <state width="1569" height="139" key="GridCell.Tab.0.center" timestamp="1600050605581">
+    <state width="1569" height="270" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600153910471" />
+    <state width="1569" height="270" key="GridCell.Tab.0.center" timestamp="1600153910470">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1569" height="139" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600050605581" />
-    <state width="1569" height="139" key="GridCell.Tab.0.left" timestamp="1600050605581">
+    <state width="1569" height="270" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600153910470" />
+    <state width="1569" height="270" key="GridCell.Tab.0.left" timestamp="1600153910470">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1569" height="139" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600050605581" />
-    <state width="1569" height="139" key="GridCell.Tab.0.right" timestamp="1600050605581">
+    <state width="1569" height="270" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600153910470" />
+    <state width="1569" height="270" key="GridCell.Tab.0.right" timestamp="1600153910470">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1569" height="139" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600050605581" />
-    <state width="1569" height="122" key="GridCell.Tab.1.bottom" timestamp="1598591255004">
+    <state width="1569" height="270" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600153910470" />
+    <state width="1569" height="241" key="GridCell.Tab.1.bottom" timestamp="1600153748348">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1569" height="122" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1598591255004" />
-    <state width="1569" height="122" key="GridCell.Tab.1.center" timestamp="1598591255004">
+    <state width="1569" height="241" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600153748348" />
+    <state width="1569" height="241" key="GridCell.Tab.1.center" timestamp="1600153748348">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1569" height="122" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1598591255004" />
-    <state width="1569" height="122" key="GridCell.Tab.1.left" timestamp="1598591255004">
+    <state width="1569" height="241" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600153748348" />
+    <state width="1569" height="241" key="GridCell.Tab.1.left" timestamp="1600153748348">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1569" height="122" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1598591255004" />
-    <state width="1569" height="122" key="GridCell.Tab.1.right" timestamp="1598591255004">
+    <state width="1569" height="241" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600153748348" />
+    <state width="1569" height="241" key="GridCell.Tab.1.right" timestamp="1600153748348">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1569" height="122" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1598591255004" />
+    <state width="1569" height="241" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600153748348" />
     <state x="375" y="85" key="SettingsEditor" timestamp="1594784380227">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="375" y="85" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1594784380227" />
+    <state x="356" y="274" width="1223" height="749" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1600153758316">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="356" y="274" width="1223" height="749" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1920.1040@0.0.1920.1040" timestamp="1600153758316" />
     <state x="887" y="256" key="run.anything.popup" timestamp="1592875697091">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="887" y="256" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1592875697091" />
-    <state x="570" y="5" width="840" height="1034" key="search.everywhere.popup" timestamp="1600045992361">
+    <state x="570" y="5" width="840" height="1034" key="search.everywhere.popup" timestamp="1600152494258">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="570" y="5" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1600045992361" />
+    <state x="570" y="5" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1600152494258" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
+          <option name="timeStamp" value="3" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

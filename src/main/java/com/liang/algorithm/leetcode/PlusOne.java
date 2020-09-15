@@ -24,7 +24,7 @@ public class PlusOne {
 //        int[] digits = {1,2,3};
         int[] digits = {4,3,9,9};
 //        int[] digits = {9,9,9};
-        Uitls.printArr(my1(digits));
+        Utils.printArr(my1(digits));
     }
 
     public static int[] my1(int[] digits) {
